@@ -3,19 +3,20 @@ body{
 }
 
 h1 {
-    text-align: center;    
+    text-align: center;  
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 
 .container {
     display: block;
     margin: auto;
     width: 300px;
-    background-color: black;
+    background-color: plum;
     color: aliceblue;
     padding: 30px;
-    border: 5px solid blue;
+    border: 5px solid lavender;
     border-radius: 20%;
-   
-
-    
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
 }
+
