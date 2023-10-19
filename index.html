@@ -3,30 +3,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
     <title>Take Home Pay Calculator</title>
 </head>
 <body>
   <form action="">  
     <div class="container">
         <h1>Take Home Pay Calculator<h1></h1>
-        <label for="by-week">Weekly</label>
-        <input type="radio" name="by-week" id="by-week">
+        <!-- <label for="by-week">Weekly</label>
+        <input type="radio" name="time-period" id="by-week">
         <label for="by-month">Monthly</label>
-        <input type="radio" name="by-month" id="by-month">
+        <input type="radio" name="time-period" id="by-month">
         <label for="by-year">Yearly</label>
-        <input type="radio" name="by-year" id="by-year">
+        <input type="radio" name="time-period" id="by-year"> --> 
         <br>
-        <label for="income">How much do you make?</label>
+        <label for="income">How much do you make in a year?</label>
         <br>
         £
         <input type="text" name="income" id="income">
         <br>
-        <label for="pension">Do you contribute towards a workplace pension?</label>
+        <!-- <label for="pension">Do you contribute towards a workplace pension?</label>
         <br>
         Yes
-        <input type="radio" name="yes" id="yes">
+        <input type="radio" name="pension-option" id="yes">
         No
-        <input type="radio" name="no" id="no">
+        <input type="radio" name="pension-option" id="no">
         <br>
         <label for="pension-contribution">How much do you contribute towards your pension?</label>
         <br>
@@ -35,15 +36,15 @@
         <label for="student-loan">Do you have any student loans?</label>
         <br>
         Yes
-        <input type="radio" name="yes" id="yes">
+        <input type="radio" name="student-loan-option" id="yes">
         No
-        <input type="radio" name="no" id="no">
+        <input type="radio" name="student-loan-option" id="no">
         <br>
         <label for="student-loan-contribution">How much do you pay towards your student loan?</label>
         <br>
-        <input type="text" name="student-loan-contribution" id="student-loan-contribution">
-        <br>
-    <button>Submit</button>
+        £ <input type="text" name="student-loan-contribution" id="student-loan-contribution">
+        <br> -->
+    <button onclick="enterValidInput()">Submit</button>
     </div>
 </form>
 </body>
