@@ -10,6 +10,7 @@ h1 {
 .container {
     display: block;
     margin: auto;
+    max-height: 400px;
     width: 300px;
     background-color: plum;
     color: aliceblue;
